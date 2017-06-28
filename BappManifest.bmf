@@ -1,0 +1,13 @@
+Uuid: f923cbf91698420890354c1d8958fee6
+ExtensionType: 1
+Name: JSON Web Token Attacker
+RepoName: json-web-token-attacker
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: False
+Author: Dennis Detering
+ShortDescription: JOSEPH - JavaScript Object Signing and Encryption Pentesting Helper
+EntryPoint: target/JOSEPH-1.0.0-jar-with-dependencies.jar
+BuildCommand: man package -DskipTests
+
