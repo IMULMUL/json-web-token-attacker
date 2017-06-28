@@ -9,5 +9,5 @@ ProOnly: False
 Author: Dennis Detering
 ShortDescription: JOSEPH - JavaScript Object Signing and Encryption Pentesting Helper
 EntryPoint: target/JOSEPH-1.0.0-jar-with-dependencies.jar
-BuildCommand: man package -DskipTests
+BuildCommand: mvn package -DskipTests
 
