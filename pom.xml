@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>eu.dety.burp</groupId>
     <artifactId>JOSEPH</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <inceptionYear>2016</inceptionYear>
     <name>JOSEPH</name>
@@ -13,9 +13,9 @@
     <dependencies>
         <!-- Burp Suite Extension API -->
         <dependency>
-            <groupId>com.h3xstream.retirejs</groupId>
-            <artifactId>burp-api</artifactId>
-            <version>1.0.0</version>
+            <groupId>net.portswigger.burp.extender</groupId>
+            <artifactId>burp-extender-api</artifactId>
+            <version>1.7.22</version>
         </dependency>
         <!-- JSON -->
         <dependency>
