@@ -168,6 +168,7 @@ public class AttackerPanel extends JPanel {
         algorithmValue = new javax.swing.JLabel();
         attackInfoName = new javax.swing.JLabel();
         attackInfoDescription = new javax.swing.JLabel();
+        attackInfoDescription.putClientProperty("html.disable", null);
         extraPanel = new javax.swing.JPanel();
         attackButton = new javax.swing.JButton();
 

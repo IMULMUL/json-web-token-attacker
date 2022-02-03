@@ -44,6 +44,7 @@ public class AttackerInfoPanel extends javax.swing.JPanel {
         attackerInfoHeadlineLabel = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         attackerInfoContentLabel = new javax.swing.JLabel();
+        attackerInfoContentLabel.putClientProperty("html.disable", null);
 
         attackerInfoHeadlineLabel.setFont(new java.awt.Font("Lucida Grande", Font.BOLD, 13)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("JOSEPH"); // NOI18N

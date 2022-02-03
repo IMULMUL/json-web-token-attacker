@@ -185,6 +185,7 @@ public class BleichenbacherPkcs1DecryptionAttackPanel extends javax.swing.JPanel
         cekFormatHex = new javax.swing.JRadioButton();
         cekFormatB64 = new javax.swing.JRadioButton();
         attackDescription = new javax.swing.JLabel();
+        attackDescription.putClientProperty("html.disable", null);
         timeElapsedValue = new javax.swing.JLabel();
         amountRequestsValue = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
